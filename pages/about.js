@@ -1,10 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const about = () => {
   return (
-    <div>about
-       <Link href="/">ana sayfa</Link>
+    <div>
+      <Head>
+        <title>Hakkımda</title>
+      </Head>
+      <h3>HAKKIMIZDA</h3>
     </div>
   )
 }

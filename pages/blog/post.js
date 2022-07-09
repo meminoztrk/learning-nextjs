@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const post = () => {
   return (
-    <div>post
-      <Link href="/">ana sayfa</Link>
+    <div>
+      <h3>POST</h3>
     </div>
   )
 }

@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const index = () => {
   return (
-    <div>index
-      <Link href="/">ana sayfa</Link>
+    <div>
+      <h3>BLOGLAR</h3>
     </div>
   )
 }
